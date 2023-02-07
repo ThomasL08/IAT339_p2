@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>P01 - Style Guide Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/variables.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+
+  <body style="padding: 2rem">
+    <section>
+      <h1 class="h1">P01 - Style Guide</h1>
+
+      <nav class="col">
+        <a class="text-link" href="#pages">Pages</a>
+        <a class="text-link" href="#branding">Colors</a>
+        <a class="text-link" href="#images">Images</a>
+        <a class="text-link" href="#icons">Icons</a>
+        <a class="text-link" href="#interactive_elements"
+          >Interactive Elements</a
+        >
+        <a class="text-link" href="#text_elements">Text Elements</a>
+        <a class="text-link" href="#combined_elements">Combined Elements</a>
+        <a class="text-link" href="product_listing.html"
+          >Product Listing Template</a
+        >
+        <a class="text-link" href="checkout.html">Checkout Template</a>
+        <a class="text-link" href="#citations">Citations</a>
+      </nav>
+    </section>
+
+    <div class="divider" style="padding-top: 1rem;"></div>
+
+    <!-- BRANDING -->
+    <section id="pages">
+      <h2 class="h2">Pages</h2>
+      <div class="col">
+        <a class="text-link" href="./listing.html">Go To Listings</a>
+        <a class="text-link" href="./checkout.html">Go To Checkout</a>
+      </div>
+    </section>
+    <section id="branding">
+      <h2 class="h2">Colors</h2>
+      <div class="row">
+        <div class="color primary">
+          <h4 class="h4">Primary Color</h4>
+          <h5 class="h5">#17A2B8</h5>
+        </div>
+        <div class="color secondary">
+          <h4 class="h4">Secondary Color</h4>
+          <h5 class="h5">#efefef</h5>
+        </div>
+        <div class="color text-primary">
+          <h4 class="h4">Text Primary</h4>
+          <h5 class="h5">rgba(255, 255, 255, 0.87)</h5>
+        </div>
+        <div class="color text-secondary">
+          <h4 class="h4">Text Secondary</h4>
+          <h5 class="h5">rgba(0, 0, 0, 0.6)</h5>
+        </div>
+      </div>
+    </section>
+
+    <section id="images">
+      <h2 class="h2">Images</h2>
+      <div class="row">
+        <div class="logo">
+          <h4 class="h4">Logo</h4>
+          <img src="assets/logo.png" alt="Logo" />
+        </div>
+        <div class="image">
+          <h4 class="h4">Product 1 Image</h4>
+          <img src="assets/1.webp" alt="Product Image" />
+        </div>
+        <div class="image">
+          <h4 class="h4">Product 2 Image</h4>
+          <img src="assets/4.webp" alt="Product Image" />
+        </div>
+        <div class="image">
+          <h4 class="h4">Product 3 Image</h4>
+          <img src="assets/3.webp" alt="Product Image" />
+        </div>
+        <div class="image">
+          <h4 class="h4">Product 4 Image</h4>
+          <img src="assets/4.webp" alt="Product Image" />
+        </div>
+      </div>
+    </section>
+
+    <section id="icons">
+      <h2 class="h2">Icons</h2>
+      <p>
+        All icons will be takes from Tabler Icons (MIT License).
+        <a class="text-link" target="_blank" href="https://tabler-icons.io/"
+          >Click Here to open Tabler</a
+        >
+      </p>
+      <div class="row">
+        <div class="icon">
+          <img src="assets/icons/brand-mastercard.svg" alt="Cart Icon" />
+          <h4 class="h4">Mastercard</h4>
+        </div>
+        <div class="icon">
+          <img src="assets/icons/brand-visa.svg" alt="Cart Icon" />
+          <h4 class="h4">Visa</h4>
+        </div>
+        <div class="icon">
+          <img src="assets/icons/brand-paypal.svg" alt="Cart Icon" />
+          <h4 class="h4">Paypal</h4>
+        </div>
+        <div class="icon">
+          <img src="assets/icons/truck.svg" alt="Cart Icon" />
+          <h4 class="h4">Truck</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2 class="h2">Interactive Elements</h2>
+
+      <section class="element">
+        <h3 class="h3">In-text link</h3>
+
+        <h4 class="h4">CSS selector:</h4>
+        <p>.text-link</p>
+
+        <h4 class="h4">Sample code:</h4>
+        <code>&lt;a href="#" class="text-link"&gt;Text Link&lt;/a&gt;</code>
+
+        <h4 class="h4">Rendered element:</h4>
+        <a class="text-link" href="#">Text Link</a>
+      </section>
+
+      <!-- Default Button styling section -->
+      <!-- <section class="element">
+
+        <h3 class="h3">Navigation Link</h3>
+
+        <h4 class="h4">CSS selector:</h4>
+        <p>.btn-nav</p>
+
+        <h4 class="h4">Sample code:</h4>
+        <code>&lt;a href="#" class="btn-nav"&gt;Navigation Link&lt;/a&gt;</code>
+
+        <h4 class="h4">Rendered element:</h4>
+        <a class="btn-nav" href="#">Navigation Link</a>
+
+      </section> -->
+
+      <section class="element">
+        <h3 class="h3">Submit/Reset Buttons</h3>
+        <h4 class="h4">CSS selector:</h4>
+        <p>.btn</p>
+
+        <h4 class="h4">Sample code:</h4>
+        <code
+          >&lt;button href="#" class="btn"&gt;Default
+          Button&lt;/button&gt;</code
+        >
+
+        <h4 class="h4">Rendered element:</h4>
+        <button class="btn" href="#">Default Button</button>
+
+        <hr />
+
+        <h4 class="h4">CSS selector:</h4>
+        <p>.btn .btn-primary</p>
+
+        <h4 class="h4">Sample code:</h4>
+        <code
+          >&lt;button href="#" class="btn btn-primary"&gt;Primary
+          Button&lt;/button&gt;</code
+        >
+
+        <h4 class="h4">Rendered element:</h4>
+        <button class="btn btn-primary" href="#">Primary Button</button>
+
+        <hr />
+
+        <h4 class="h4">CSS selector:</h4>
+        <p>.btn .btn-secondary</p>
+
+        <h4 class="h4">Sample code:</h4>
+        <code
+          >&lt;button href="#" class="btn btn-secondary"&gt;Secondary
+          Button&lt;/button&gt;</code
+        >
+
+        <h4 class="h4">Rendered element:</h4>
+        <button class="btn btn-secondary" href="#">Secondary Button</button>
+
+        <!-- <hr>
+
+        <h4 class="h4">CSS selector:</h4>
+        <p>.btn .btn-solid</p>
+
+        <h4 class="h4">Sample code:</h4>
+        <code>&lt;button href="#" class="btn btn-solid"&gt;Solid Button&lt;/button&gt;</code>
+
+        <h4 class="h4">Rendered element:</h4>
+        <button class="btn btn-solid" href="#">Solid Button</button> -->
+
+        <hr />
+
+        <h4 class="h4">CSS selector:</h4>
+        <p>.btn .btn-outline</p>
+
+        <h4 class="h4">Sample code:</h4>
+        <code
+          >&lt;button href="#" class="btn btn-outline"&gt;Outlined
+          Button&lt;/button&gt;</code
+        >
+
+        <h4 class="h4">Rendered element:</h4>
+        <button class="btn btn-outline" href="#">Outlined Button</button>
+      </section>
+
+      <section class="element">
+        <h3 class="h3">Text Input Field with Label</h3>
+        <h4 class="h4">CSS selector:</h4>
+        <p>.input</p>
+
+        <h4 class="h4">Sample code:</h4>
+        <code>
+          &lt;div href="#" class="input"&gt;<br />
+          &emsp;&lt;label for="input"&gt;Label&lt;/label&gt;<br />
+          &emsp;&lt;input id="input" /&gt;<br />
+          &lt;/div&gt;
+        </code>
+
+        <h4 class="h4">Rendered element:</h4>
+        <div class="input">
+          <label for="input">Label</label>
+          <input id="input" />
+          <div class="support">Supporting text</div>
+        </div>
+      </section>
+
+      <section class="element">
+        <h3 class="h3">Radio Button with Label</h3>
+        <h4 class="h4">CSS selector:</h4>
+        <p>.radio</p>
+
+        <h4 class="h4">Sample code:</h4>
+        <code>
+          &lt;div href="#" class="radio"&gt;<br />
+          &emsp;&lt;input type="radio" id="radio" /&gt;<br />
+          &emsp;&lt;label for="radio"&gt;Label&lt;/label&gt;<br />
+          &lt;/div&gt;
+        </code>
+
+        <h4 class="h4">Rendered element:</h4>
+        <div class="radio">
+          <input id="radio" type="radio" />
+          <label for="radio">Label</label>
+        </div>
+      </section>
+
+      <section class="element">
+        <h3 class="h3">Image as a Link</h3>
+        <h4 class="h4">CSS selector:</h4>
+        <p>.img-link</p>
+
+        <h4 class="h4">Sample code:</h4>
+        <code>
+          &lt;a href="#" class="img-link"&gt;<br />
+          &emsp;&lt;img src="./assets/1.webp" /&gt;<br />
+          &lt;/a&gt;
+        </code>
+
+        <h4 class="h4">Rendered element:</h4>
+        <a class="img-link" href="#">
+          <img src="./assets/1.webp" />
+        </a>
+      </section>
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2 class="h2">Text Elements</h2>
+
+      <section class="element">
+        <h3 class="h3">Headings</h3>
+        <h4 class="h4">CSS selector:</h4>
+        <p>.h1, .h2, .h3, .h4, .h5, h6</p>
+
+        <h4 class="h4">Sample code:</h4>
+        <code>
+          &lt;h1 class="h1"&gt;Heading 1&lt/h1&gt<br />
+          &lt;h2 class="h2"&gt;Heading 2&lt/h2&gt<br />
+          &lt;h3 class="h3"&gt;Heading 3&lt/h3&gt<br />
+          &lt;h4 class="h4"&gt;Heading 4&lt/h4&gt<br />
+          &lt;h5 class="h5"&gt;Heading 5&lt/h5&gt<br />
+          &lt;h6 class="h6"&gt;Heading 6&lt/h6&gt
+        </code>
+
+        <h4 class="h4">Rendered element:</h4>
+        <h1 class="h1">Heading 1</h1>
+        <h2 class="h2">Heading 2</h2>
+        <h3 class="h3">Heading 3</h3>
+        <h4 class="h4">Heading 4</h4>
+        <h5 class="h5">Heading 5</h5>
+        <h6 class="h6">Heading 6</h6>
+      </section>
+
+      <section class="element">
+        <h3 class="h3">Paragraphs</h3>
+        <h4 class="h4">CSS selector:</h4>
+        <p>.p</p>
+
+        <h4 class="h4">Sample code:</h4>
+        <code> &lt;p class="p"&gt;Paragraph&lt/p&gt<br /> </code>
+
+        <h4 class="h4">Rendered element:</h4>
+        <p class="p">Paragraph</p>
+      </section>
+
+      <section class="element">
+        <h3 class="h3">Numbered Lists</h3>
+        <h4 class="h4">CSS selector:</h4>
+        <p>.list</p>
+
+        <h4 class="h4">Sample code:</h4>
+        <code>
+          &lt;ol class="list"&gt;<br />
+          &emsp;&lt;li&gt;One&lt;/li&gt;<br />
+          &emsp;&lt;li&gt;Two&lt;/li&gt;<br />
+          &emsp;&lt;li&gt;Three&lt;/li&gt;<br />
+          &lt;/ol&gt;
+        </code>
+
+        <h4 class="h4">Rendered element:</h4>
+        <ol class="list">
+          <li>One</li>
+          <li>Two</li>
+          <li>Three</li>
+        </ol>
+      </section>
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2 class="h2">Combined Elements</h2>
+
+      <section class="element">
+        <h3 class="h3">Main Navigation</h3>
+
+        <h4 class="h4">Sample code:</h4>
+        <code>
+          &lt;div class="nav"&gt;<br />
+          &emsp;&lt;a&gt; class="nav-brand"&gt;<br />
+          &emsp;&emsp;&lt;img src="./assets/1.webp" /&gt;<br />
+          &emsp;&lt;/a&gt;<br />
+          &emsp;&lt;ul&gt;<br />
+          &emsp;&emsp;&lt;li&gt; class="btn-nav"&gt;One&lt;/li&gt;<br />
+          &emsp;&emsp;&lt;li&gt; class="btn-nav"&gt;Two&lt;/li&gt;<br />
+          &emsp;&emsp;&lt;li&gt; class="btn-nav"&gt;Three&lt;/li&gt;<br />
+          &emsp;&lt;/ul&gt;<br />
+          &emsp;&lt;div&gt;<br />
+          &emsp;&emsp;&lt;button&gt; class="btn
+          btn-secondary"&gt;Login&lt;/button&gt;<br />
+          &emsp;&emsp;&lt;button&gt; class="btn
+          btn-primary"&gt;Register&lt;/button&gt;<br />
+          &emsp;&lt;/div&gt;<br />
+          &lt;/div&gt;<br />
+        </code>
+
+        <h4 class="h4">Rendered element:</h4>
+        <div class="nav">
+          <div class="nav-section">
+            <a class="nav-brand">
+              <img src="./assets/1.webp" />
+            </a>
+            <a class="text-link">One</a>
+            <a class="text-link">Two</a>
+            <a class="text-link">Three</a>
+          </div>
+          <div class="nav-section">
+            <button class="btn btn-outline">Login</button>
+            <button class="btn btn-primary">Register</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="element">
+        <h3 class="h3">Product/Service Listing</h3>
+        <h4 class="h4">Sample code:</h4>
+        <code>
+          &lt;div class="card"&gt;<br />
+          &emsp;&lt;a class="img-link"&gt;<br />
+          &emsp;&emsp;&lt;img src="./assets/1.webp" /&gt;<br />
+          &emsp;&lt;/a&gt;<br />
+          &emsp;&lt;h1 class="h-1"&gt;Title&lt;/h1&gt;<br />
+          &emsp;&lt;p class="p"&gt;Some description&lt;/p&gt;<br />
+          &emsp;&lt;div&gt;<br />
+          &emsp;&emsp;&lt;button class="btn btn-secondary"&gt;Add to
+          cart&lt;/button&gt;<br />
+          &emsp;&emsp;&lt;button class="btn
+          btn-primary"&gt;Open&lt;/button&gt;<br />
+          &emsp;&lt;/div&gt;<br />
+          &lt;/div&gt;
+        </code>
+
+        <h4 class="h4">Rendered element:</h4>
+        <div class="card product">
+          <a class="img-link card-section">
+            <img src="./assets/1.webp" />
+          </a>
+          <h1 class="h1">Title</h1>
+          <p class="p">Some description</p>
+          <div class="btns-right">
+            <button class="btn btn-secondary">Add to cart</button>
+            <button class="btn btn-primary">Open</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="element">
+        <h3 class="h3">Payment Form</h3>
+        <h4 class="h4">Sample code:</h4>
+        <code>
+          &lt;form&gt;<br />
+          &emsp;&lt;div class="input"&gt;<br />
+          &emsp;&emsp;&lt;label for="name"&gt;Name on the card&lt;/label&gt;<br />
+          &emsp;&emsp;&lt;input id="name" /&gt;<br />
+          &emsp;&lt;/div&gt;<br />
+          &emsp;&lt;div class="input"&gt;<br />
+          &emsp;&emsp;&lt;label for="number"&gt;Card Number&lt;/label&gt;<br />
+          &emsp;&emsp;&lt;input id="number" /&gt;<br />
+          &emsp;&lt;/div&gt;<br />
+          &emsp;&lt;div class="input"&gt;<br />
+          &emsp;&emsp;&lt;label for="expire"&gt;Expiry Date&lt;/label&gt;<br />
+          &emsp;&emsp;&lt;input id="expire" /&gt;<br />
+          &emsp;&lt;/div&gt;<br />
+          &emsp;&lt;div class="input"&gt;<br />
+          &emsp;&emsp;&lt;label for="csv"&gt;CSV&lt;/label&gt;<br />
+          &emsp;&emsp;&lt;input id="csv" /&gt;<br />
+          &emsp;&lt;/div&gt;<br />
+          &emsp;&lt;button class="btn btn-secondary"&gt;Calcel&lt;/button&gt;<br />
+          &emsp;&lt;button type="submit" class="btn
+          btn-primary"&gt;Submit&lt;/button&gt;<br />
+          &lt;/form&gt;<br />
+        </code>
+
+        <h4 class="h4">Rendered element:</h4>
+        <form class="payment">
+          <div class="input">
+            <label for="name">Name on the card</label>
+            <input id="name" />
+          </div>
+          <div class="input">
+            <label for="number">Card Number</label>
+            <input id="number" />
+          </div>
+          <div class="row">
+            <div class="input">
+              <label for="expire">Expiry Date</label>
+              <input id="expire" />
+            </div>
+            <div class="input">
+              <label for="csv">CSV</label>
+              <input id="csv" />
+            </div>
+          </div>
+          <div class="btns-right">
+            <button class="btn btn-secondary">Calcel</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="element">
+        <h3 class="h3">Checkout Cart</h3>
+        <h4 class="h4">Sample code:</h4>
+        <code>
+          &lt;div&gt;<br />
+          &emsp;&lt;ol class="list"&gt;<br />
+          &emsp;&emsp;&lt;li&gt;<br />
+          &emsp;&emsp;&emsp;&lt;h1&gt; class="h-1"&gt;Title 1&lt;/h1&gt;<br />
+          &emsp;&emsp;&emsp;&lt;p&gt; class="p"&gt;Description 1&lt;/p&gt;<br />
+          &emsp;&emsp;&emsp;&lt;div class="input"&gt;<br />
+          &emsp;&emsp;&emsp;&emsp;&lt;label&gt;
+          for="amount-1"&gt;Amount&lt;/label&gt;<br />
+          &emsp;&emsp;&emsp;&emsp;&lt;input id="amount-1" value="1" /&gt;<br />
+          &emsp;&emsp;&emsp;&lt;/div&gt;<br />
+          &emsp;&emsp;&emsp;&lt;button&gt; class="btn
+          btn-secondary"&gt;Remove&lt;/button&gt;<br />
+          &emsp;&emsp;&lt;/li&gt;<br />
+          &emsp;&emsp;&lt;li&gt;<br />
+          &emsp;&emsp;&emsp;&lt;h1&gt; class="h-1"&gt;Title 2&lt;/h1&gt;<br />
+          &emsp;&emsp;&emsp;&lt;p&gt; class="p"&gt;Description 2&lt;/p&gt;<br />
+          &emsp;&emsp;&emsp;&lt;div class="input"&gt;<br />
+          &emsp;&emsp;&emsp;&emsp;&lt;label&gt;
+          for="amount-2"&gt;Amount&lt;/label&gt;<br />
+          &emsp;&emsp;&emsp;&emsp;&lt;input id="amount-2" value="3" /&gt;<br />
+          &emsp;&emsp;&emsp;&lt;/div&gt;<br />
+          &emsp;&emsp;&emsp;&lt;button&gt; class="btn
+          btn-secondary"&gt;Remove&lt;/button&gt;<br />
+          &emsp;&emsp;&lt;/li&gt;<br />
+          &emsp;&lt;/ol&gt;<br />
+          &emsp;&lt;button&gt; class="btn btn-primary"&gt;Proceed to
+          Payment&lt;/button&gt;<br />
+          &lt;/div&gt;<br />
+        </code>
+
+        <h4 class="h4">Rendered element:</h4>
+        <div class="checkout">
+          <ol class="list">
+            <li>
+              <h1 class="h1">Title 1</h1>
+              <p class="p">Description 1</p>
+              <div class="input">
+                <label for="amount-1">Amount</label>
+                <input id="amount-1" value="1" />
+              </div>
+              <a class="text-link">Remove</a>
+            </li>
+            <li>
+              <h1 class="h1">Title 2</h1>
+              <p class="p">Description 2</p>
+              <div class="input">
+                <label for="amount-2">Amount</label>
+                <input id="amount-2" value="3" />
+              </div>
+              <a class="text-link">Remove</a>
+            </li>
+          </ol>
+          <div class="btns-right">
+            <button class="btn btn-primary">Proceed to Payment</button>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+    <section>
+      <h2 class="h2">Citations</h2>
+
+      <ul class="list">
+        <li>
+          Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>.
+          Retrieved from:
+          <a class="text-link"
+            href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans"
+            >Link is here</a
+          >
+        </li>
+        <li>
+          Tabler. <strong>Icons</strong>.
+          Retrieved from
+          <a class="text-link"
+            href="https://tabler-icons.io/"
+            >https://tabler-icons.io/</a
+          >
+        </li>
+        <li>
+          PNG Item. <strong>Logo</strong>.
+          Retrieved from
+          <a class="text-link"
+            href="https://www.pngitem.com/middle/mbxwo_vinyl-records-png-product-coalition-logo-transparent-png/"
+            >Link is here</a
+          >
+        </li>
+        <li>
+          Turnable Lab. <strong>Product Images</strong>.
+         Retrieved from
+         <a class="text-link"
+           href="https://www.turntablelab.com/"
+           >https://www.turntablelab.com/</a
+         >
+       </li>
+      </ul>
+    </section>
+  </body>
+</html>

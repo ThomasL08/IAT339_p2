@@ -1,0 +1,131 @@
+:root {
+  --background-color: #fff;
+  --body-background: none;
+
+  --primary-color: #17a2b8;
+  --primary-color-hover: #78d6f7;
+  --secondary-color: #efefef;
+  --danger-color: #dc3545;
+  --creulean-color: #3ec4f3;
+  --dark-color: #424142;
+
+  --text-primary-color: rgba(0, 0, 0, 0.87);
+  --text-secondary-color: rgba(0, 0, 0, 0.6);
+
+  --btn-primary-background: #17a2b8;
+  --btn-primary-text-color: #fff;
+
+  --btn-secondary-color: #fff;
+  --btn-secondary-text-color: var(--text-primary-color);
+
+  /* Footer */
+  --overlay-1-background: #f0f0f0;
+  --overlay-1-shadow: none;
+
+  /* Navbar */
+  --overlay-2-background: #e9eeef;
+  --overlay-2-shadow: none;
+
+  /* Side Menu */
+  --overlay-3-background: #f5f5f5;
+  --overlay-3-shadow: none;
+
+  /* Modals, dropdowns, everything that is white in light mode */
+  --overlay-4-background: #ffffff;
+  --overlay-4-shadow: 4px 4px 7px 0 rgba(0, 0, 0, 0.1);
+
+  /* Table headers, hover */
+  --overlay-5-background: #e7f5f7;
+  --overlay-5-shadow: none;
+
+  --creulean: #3ec4f3;
+  --creulean-variant: #009be2;
+  --jade: #34f5c6;
+  --crimson: #ff3676;
+  --sunburn: #ff7c26;
+  --button: #17a2b8;
+  --gradient1: linear-gradient(161.81deg, #3ec4f3 4.94%, #34f5c6 97.03%);
+  --gradient2: linear-gradient(180deg, #ff3676 0%, #ff7c26 100%);
+
+  --divider-color: rgba(0, 0, 0, 0.38);
+  --divider-color: rgba(0, 0, 0, 0.38);
+  --divider: 1px solid var(--divider-color);
+  --divider-light: 1px solid var(--divider-color-light);
+}
+
+[data-theme='dark'] {
+  --background-color: #121212;
+  --body-background: #121212;
+
+  /* --primary-color: #BB86FC; */
+  --secondary-color: #fff;
+
+  --text-primary-color: rgba(255, 255, 255, 0.87);
+  --text-secondary-color: rgba(255, 255, 255, 0.6);
+  --text-disabled-color: rgba(255, 255, 255, 0.38);
+
+  --btn-secondary-background: #fff;
+  --btn-secondary-text-color: #17a2b8;
+  --btn-secondary-hover-background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.15),
+      rgba(255, 255, 255, 0.15)
+    ),
+    #bb86fc;
+  --btn-secondary-active-background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    #bb86fc;
+
+  --overlay-1-background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.07),
+      rgba(255, 255, 255, 0.07)
+    ),
+    #121212;
+  --overlay-1-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14),
+    0px 3px 1px rgba(0, 0, 0, 0.12), 0px 1px 5px rgba(0, 0, 0, 0.2);
+
+  --overlay-2-background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.09),
+      rgba(255, 255, 255, 0.09)
+    ),
+    #121212;
+  --overlay-2-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14),
+    0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+
+  --overlay-3-background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.12),
+      rgba(255, 255, 255, 0.12)
+    ),
+    #121212;
+  --overlay-3-shadow: 0px 8px 10px rgba(0, 0, 0, 0.14),
+    0px 3px 14px rgba(0, 0, 0, 0.12), 0px 5px 5px rgba(0, 0, 0, 0.2);
+
+  --overlay-4-background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.15),
+      rgba(255, 255, 255, 0.15)
+    ),
+    #121212;
+  --overlay-4-shadow: 0px 16px 24px rgba(0, 0, 0, 0.14),
+    0px 6px 30px rgba(0, 0, 0, 0.12), 0px 8px 10px rgba(0, 0, 0, 0.2);
+
+  --overlay-5-background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.16),
+      rgba(255, 255, 255, 0.16)
+    ),
+    #121212;
+  --overlay-5-shadow: 0px 24px 38px rgba(0, 0, 0, 0.14),
+    0px 9px 46px rgba(0, 0, 0, 0.12), 0px 11px 15px rgba(0, 0, 0, 0.2);
+
+  --divider-color: #979797;
+  --divider-color-light: #6b6b6b;
+  --divider: 1px solid var(--divider-color);
+  --divider-light: 1px solid var(--divider-color-light);
+}

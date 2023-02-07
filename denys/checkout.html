@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/variables.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-section">
+        <a class="nav-brand img-link">
+          <img src="./assets/logo.png" />
+        </a>
+        <a class="text-link">Home</a>
+        <a class="text-link">Explore</a>
+        <a class="text-link">About Us</a>
+      </div>
+      <div class="nav-section" style="flex: 1; max-width: 400px">
+        <div href="#" class="input search">
+          <input
+            placeholder="Search for record"
+            style="max-width: 400px"
+            id="input"
+          />
+        </div>
+      </div>
+      <div class="nav-section nav-buttons">
+        <button class="btn btn-outline">Login</button>
+        <button class="btn btn-primary">Register</button>
+      </div>
+    </nav>
+    <div id="page-content">
+      <section class="small" id="banner-placeholder">
+        <h1 class="h1">Banner Placeholder</h1>
+      </section>
+      <section>
+        <div class="checkout-row">
+          <div class="checkout">
+            <h2 class="h2">Your Cart</h2>
+            <ol class="list">
+              <li>
+                <div class="description">
+                  <img src="./assets/1.webp" />
+                  <div>
+                    <h3 class="h3">Title 1</h3>
+                    <p class="p">Description 1</p>
+                  </div>
+                </div>
+                <div class="input">
+                  <label for="amount-1">Amount</label>
+                  <input id="amount-1" value="1" />
+                </div>
+                <a class="text-link">Remove</a>
+              </li>
+              <li>
+                <div class="description">
+                  <img src="./assets/1.webp" />
+                  <div>
+                    <h3 class="h3">Title 1</h3>
+                    <p class="p">Description 1</p>
+                  </div>
+                </div>
+                <div class="input">
+                  <label for="amount-2">Amount</label>
+                  <input id="amount-2" value="3" />
+                </div>
+                <a class="text-link">Remove</a>
+              </li>
+            </ol>
+            <div class="btns-right">
+              <button class="btn btn-secondary">Back to Listings</button>
+            </div>
+          </div>
+          <div id="payments-container">
+            <form class="payment">
+              <h2 class="h2">Shipping Address</h2>
+              <div class="row">
+                <div class="input">
+                  <label for="first">First Name</label>
+                  <input id="first" />
+                </div>
+                <div class="input">
+                  <label for="last">Last Name</label>
+                  <input id="last" />
+                </div>
+              </div>
+              <div class="input">
+                <label for="email">Email</label>
+                <input id="email" />
+              </div>
+              <div class="input">
+                <label for="phone">Phone Number</label>
+                <input id="phone" />
+              </div>
+              <div class="input">
+                <label for="address1">Address 1</label>
+                <input id="address1" />
+              </div>
+              <div class="input">
+                <label for="address2">Address 2</label>
+                <input id="address2" />
+              </div>
+              <div class="row">
+                <div class="input">
+                  <label for="country">Country</label>
+                  <input id="country" />
+                </div>
+                <div class="input">
+                  <label for="state">State</label>
+                  <input id="state" />
+                </div>
+              </div>
+            </form>
+            <form class="payment">
+              <h2 class="h2">Payment</h2>
+              <div class="input">
+                <label for="name">Name on the card</label>
+                <input id="name" />
+              </div>
+              <div class="input">
+                <label for="number">Card Number</label>
+                <input id="number" />
+              </div>
+              <div class="row">
+                <div class="input">
+                  <label for="expire">Expiry Date</label>
+                  <input id="expire" />
+                </div>
+                <div class="input">
+                  <label for="csv">CSV</label>
+                  <input id="csv" />
+                </div>
+              </div>
+              <div class="btns-right">
+                <button class="btn btn-secondary">Calcel</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="footer-section">
+        <a href="" class="text-link">Terms of Use </a>
+        <a href="" class="text-link">Copyright & Trademark Privacy </a>
+        <a href="" class="text-link">Delivery and Payment </a>
+        <a href="" class="text-link">Accessibility </a>
+        <a href="" class="text-link">Cookie Policy </a>
+      </div>
+      <div class="footer-section">
+        <a href="" class="text-link">© Copyright 2023 Company Name</a>
+      </div>
+    </footer>
+  </body>
+</html>
