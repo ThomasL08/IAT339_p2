@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01 - MyLon</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Syne|Josefin Sans"> -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <img class="logo" src="img/logo.png" alt="logo" />
+      <h1>P01 - MyLon</h1>
+      <nav class="nav-main-box">       
+        <a href="index.html" class="nav-main-item box-item-nav">Home Page</a>
+        <a href="product_listing.html" class="nav-main-item box-item-nav">Product Listing Template</a>
+        <a href="checkout.html" class="nav-main-item box-item-nav">Checkout Template</a>
+        <a href="brand.html" class="nav-main-item box-item-nav">Branding</a>
+      </nav>
+
+    </header>
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+
+      <section class="element">
+        <h3>In-text link</h3>
+        <a href="https://www.britishmuseum.org/collection/animals/gayer-anderson-cat">link text</a>
+        <code>&lt;a href="https://www.britishmuseum.org/collection/animals/gayer-anderson-cat"&gt;link text&lt;/a&gt;</code>
+        <!-- https://www.w3schools.com/html/html_links.asp -->
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+          <a href="#section1" class="nav-main-item box-item-nav">Section One</a>
+          <a href="#section2" class="nav-main-item box-item-nav">Section Two</a>
+          <a href="#section3" class="nav-main-item box-item-nav">Section Three</a>
+
+          <!-- Reference: lecture 2 in-class html code -->
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+          <button class="submit" value="Submit">Submit</button>
+          <button class="reset" value="Reset">Reset</button>
+          <code>&lt;button class="submit" value="Submit"&gt;Submit&lt;/button&gt;</code>
+          <!-- https://www.w3schools.com/tags/att_button_type.asp -->
+      </section>
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+
+          <label for="username">Username</label>
+          <input type="text" name="username" id="username">
+
+          <label>
+            Email Address
+            <input type="email" name="email-address" placeholder="name@domain.com">
+          </label>
+
+          <form>
+            <fieldset class="account-info">
+              <label>
+                Username
+                <input type="text" name="username">
+              </label>
+              <label>
+                Password
+                <input type="password" name="password">
+              </label>
+            </fieldset>
+            
+            <fieldset class="account-action">
+              <input class="btn" type="submit" name="submit" value="Login">
+              <label>
+                <input type="checkbox" name="remember"> Stay signed in
+              </label>
+            </fieldset>
+          </form>
+<!-- https://learn.shayhowe.com/html-css/building-forms/#text-and-textareas -->
+
+      </section>
+
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+          <input type="radio" id="html" name="fav_language" value="HTML">
+          <label for="html">HTML</label><br>
+          <code>&lt;input type="radio" id="html" name="fav_language" value="HTML"&gt;</code>
+          <code>&lt;label for="html"&gt;HTML&lt;/label&gt;</code>
+          <!-- https://www.w3schools.com/tags/att_input_type_radio.asp -->
+      </section>
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+        <a href="https://www.britishmuseum.org/"><img src="https://www.britishmuseum.org/sites/default/files/styles/1_1_media_small/public/2020-03/gayer-anderson-cat-sepia.jpg?h=d77a63f1&itok=U6pnGOF-" alt="Cat"></a>
+        <code>&lt;a href="https://www.britishmuseum.org/"&gt;&lt;img src="https://www.britishmuseum.org/sites/default/files/styles/1_1_media_small/public/2020-03/gayer-anderson-cat-sepia.jpg?h=d77a63f1&itok=U6pnGOF-" alt="Cat"&gt;&lt;/a&gt;</code>
+        <!-- https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML -->
+      </section>
+
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+        <h2>Level2</h2>
+        <h3>Level3</h3>
+        <h4>Level4</h4>
+        <h5>Level5</h5>
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+        <p>This is the first paragraph.</p>
+        <p>This is the second paragraph.</p>
+        <p>This is the last paragraph.</p>
+        <!-- https://www.w3schools.com/html/html_paragraphs.asp -->
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+        <ol>
+          <li>Seed</li>
+          <li>Cut</li>
+          <li>Whole</li>
+          <li>Juice</li>
+          <li>Ice</li>
+        </ol>
+        <!-- https://www.w3schools.com/html/html_lists_ordered.asp -->
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+          <nav class="nav-main box">       
+            <a href="index.html" class="nav-main-item box-item-nav">Home Page</a>
+            <a href="product_listing.html" class="nav-main-item box-item-nav">Product Listing</a>
+            <a href="checkout.html" class="nav-main-item box-item-nav">Checkout</a>
+            <a href="brand.html" class="nav-main-item box-item-nav">About MyLon</a>
+          </nav>
+      </section>
+
+
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        <li>Bonjour Monde, Lucas Descroix, George Triantafyllakos. Designer. 2017. <strong>Syne [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Syne?query=syne">https://fonts.google.com/specimen/Syne?query=syne</a></li>
+
+        <li>Dalton Maag. Designer. 2011. <strong>Ubuntu [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Ubuntu?query=ubun">https://fonts.google.com/specimen/Ubuntu?query=ubun</a></li>
+
+        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+
+        <li>Santiago Orozco. Designer. 2010. <strong>Josefin Sans [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Josefin+Sans?query=Josefin+">https://fonts.google.com/specimen/Josefin+Sans?query=Josefin+</a></li>
+        
+        <li>Product Images. Retrieved from <a href=https://www.irasutoya.com>https://www.irasutoya.com</a></li>
+      </ul>
+
+    </section>
+
+
+
+  </body>
+</html>

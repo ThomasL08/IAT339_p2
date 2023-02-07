@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Ubuntu;
+  src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf")
+}
+
+@font-face {
+  font-family: Syne;
+  src: url("../fonts/Syne/static/Syne-ExtraBold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Josefin Sans;
+  src: url("../fonts/Josefin_Sans/static/JosefinSans-SemiBold.ttf");
+  font-weight: bold;
+}
